@@ -23,12 +23,12 @@
 ---
 # Kết quả.
 * Tác động của Chiến lược Tiếp thị đối với Doanh số Bán hàng
-* 1. Phân phối khách hàng theo loại:
+*  Phân phối khách hàng theo loại:
     - Large Facility: 45.97%
     - Small Facility: 28.23%
     - Medium Facility: 16.94%
     - Private Facility: 8.87%
-* 2. Tương quan giữa số lượng cạnh tranh và loại khách hàng:
+*  Tương quan giữa số lượng cạnh tranh và loại khách hàng:
    - Theo tỷ lệ:
    - High:
        - Large Facility: 16.67%
@@ -53,7 +53,7 @@
    - Small Facility:
        - Số lượng khách hàng: 422.51
        - Doanh số bán hàng trung bình: 1,637,759
-* 3. Tương quan giữa loại khách hàng và doanh số bán hàng:
+*  Tương quan giữa loại khách hàng và doanh số bán hàng:
   - Large Facility: Doanh số bán hàng trung bình: 19,998,800
   - Medium Facility: Doanh số bán hàng trung bình: 40,759,970
   - Private Facility: Doanh số bán hàng trung bình: 5,030,246
