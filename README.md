@@ -54,10 +54,10 @@
        - Số lượng khách hàng: 422.51
        - Doanh số bán hàng trung bình: 1,637,759
 *  Tương quan giữa loại khách hàng và doanh số bán hàng:
-  - Large Facility: Doanh số bán hàng trung bình: 19,998,800
-  - Medium Facility: Doanh số bán hàng trung bình: 40,759,970
-  - Private Facility: Doanh số bán hàng trung bình: 5,030,246
-  - Small Facility: Doanh số bán hàng trung bình: 1,637,759
+   - Large Facility: Doanh số bán hàng trung bình: 19,998,800
+   - Medium Facility: Doanh số bán hàng trung bình: 40,759,970
+   - Private Facility: Doanh số bán hàng trung bình: 5,030,246
+   - Small Facility: Doanh số bán hàng trung bình: 1,637,759
  
     ---
     
