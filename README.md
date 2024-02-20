@@ -84,9 +84,9 @@
   - Sales Contact 1 có ROI là 3.1 đô la cho mỗi đô la chi tiêu.
   - Sales Contact 3 có ROI là 2.1 đô la cho mỗi đô la chi tiêu.
  - Trong tài khoản Large Facility:
-  - Sales Contact 1 có ROI cao nhất, là 11.7 đô la cho mỗi đô la chi tiêu.
-  - Sales Contact 4 có ROI là 10.6 đô la cho mỗi đô la chi tiêu.
-  - Sales Contact 2 có ROI là 4 đô la cho mỗi đô la chi tiêu.
+   - Sales Contact 1 có ROI cao nhất, là 11.7 đô la cho mỗi đô la chi tiêu.
+   - Sales Contact 4 có ROI là 10.6 đô la cho mỗi đô la chi tiêu.
+   - Sales Contact 2 có ROI là 4 đô la cho mỗi đô la chi tiêu.
 - Chiến dịch quảng cáo Flyer (Campaign_Flyer) có ROI là 2.7 đô la cho mỗi đô la chi tiêu.
   - Sales Contact 3 có ROI là 2 đô la cho mỗi đô la chi tiêu.
 - Chiến dịch quảng cáo qua điện thoại (Campaign_Phone) có ROI là -3.5 đô la cho mỗi đô la chi tiêu, có thể hiểu là chiến dịch này không hiệu quả và gây lỗ.
