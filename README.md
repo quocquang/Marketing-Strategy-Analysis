@@ -3,21 +3,21 @@
 ---
 
 # :briefcase: Business Case and Requirement
- # Phân tích về chiến lược tiếp thị và tác động của nó đối với doanh số bán hàng.
+ # Analysis of marketing strategy and its impact on sales volume.
 
-  - Tác động của từng chiến lược tiếp thị và lượt bán hàng đến Doanh số bán hàng (Số tiền thu được) là gì?
-  - Chiến lược tương tự có hợp lệ cho tất cả các loại khách hàng khác nhau không?
-  - Phân tích thống kê:
-   - Tác động của chiến lược marketing:
-   - Tương quan, hồi quy và cây quyết định để đánh giá ảnh hưởng của chiến lược marketing đến doanh thu.
-   - Phân tích sự khác biệt trong hiệu quả chiến lược giữa các loại khách hàng.
-  - Tác động của đối thủ cạnh tranh:
-   - Đánh giá mức độ ảnh hưởng của số lượng đối thủ cạnh tranh đến doanh thu.
-   - Xác định mối tương tác giữa chiến lược marketing, đối thủ cạnh tranh và doanh thu.
-  - Đề xuất cuối cùng (Doanh thu tối ưu):
-   - Dựa trên phân tích, đưa ra chiến lược marketing hiệu quả nhất cho từng loại khách hàng.
-   - Xác định mức độ đầu tư tối ưu cho các kênh marketing khác nhau.
-   - Dự đoán doanh thu tiềm năng dựa trên các chiến lược được đề xuất.
+ - What is the impact of each marketing strategy and sales turnover on Sales Volume (Revenue)?
+ - Is the same strategy valid for all different types of customers?
+ - Statistical analysis:
+    - The impact of marketing strategy:
+    - Conduct correlation analysis, regression, and decision tree analysis to evaluate the influence of marketing strategy on revenue.
+    - Analyze the differences in effectiveness of strategies among various customer segments.
+  - The impact of competitive rivals:
+    - Evaluate the impact of the number of competitive rivals on revenue.
+    - Determine the interaction between marketing strategy, competitive rivals, and revenue.
+  - Final Recommendations (Optimal Revenue):
+    - Based on the analysis, propose the most effective marketing strategy for each customer segment.
+    - Identify the optimal investment level for different marketing channels.
+    - Predict potential revenue based on the proposed strategies.
 
 
 ---
