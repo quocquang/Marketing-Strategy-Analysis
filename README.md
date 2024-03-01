@@ -8,16 +8,16 @@
   - Tác động của từng chiến lược tiếp thị và lượt bán hàng đến Doanh số bán hàng (Số tiền thu được) là gì?
   - Chiến lược tương tự có hợp lệ cho tất cả các loại khách hàng khác nhau không?
   - Phân tích thống kê:
-  - Tác động của chiến lược marketing:
-  - Tương quan, hồi quy và cây quyết định để đánh giá ảnh hưởng của chiến lược marketing đến doanh thu.
-  - Phân tích sự khác biệt trong hiệu quả chiến lược giữa các loại khách hàng.
+   - Tác động của chiến lược marketing:
+   - Tương quan, hồi quy và cây quyết định để đánh giá ảnh hưởng của chiến lược marketing đến doanh thu.
+   - Phân tích sự khác biệt trong hiệu quả chiến lược giữa các loại khách hàng.
   - Tác động của đối thủ cạnh tranh:
-  - Đánh giá mức độ ảnh hưởng của số lượng đối thủ cạnh tranh đến doanh thu.
-  - Xác định mối tương tác giữa chiến lược marketing, đối thủ cạnh tranh và doanh thu.
+   - Đánh giá mức độ ảnh hưởng của số lượng đối thủ cạnh tranh đến doanh thu.
+   - Xác định mối tương tác giữa chiến lược marketing, đối thủ cạnh tranh và doanh thu.
   - Đề xuất cuối cùng (Doanh thu tối ưu):
-  - Dựa trên phân tích, đưa ra chiến lược marketing hiệu quả nhất cho từng loại khách hàng.
-  - Xác định mức độ đầu tư tối ưu cho các kênh marketing khác nhau.
-  - Dự đoán doanh thu tiềm năng dựa trên các chiến lược được đề xuất.
+   - Dựa trên phân tích, đưa ra chiến lược marketing hiệu quả nhất cho từng loại khách hàng.
+   - Xác định mức độ đầu tư tối ưu cho các kênh marketing khác nhau.
+   - Dự đoán doanh thu tiềm năng dựa trên các chiến lược được đề xuất.
 
 
 ---
