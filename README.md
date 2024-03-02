@@ -25,7 +25,6 @@
 # :bookmark_tabs: Campaign-Data Datasets
 
 ###  Campaign-Data dataset
-Provide information about orders
  - Client ID: Unique identifier for each client.
  - Client Type: Type or category of the client.
  - Number of Customers: The count of customers associated with each client.
