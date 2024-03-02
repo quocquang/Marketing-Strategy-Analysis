@@ -56,9 +56,6 @@ First 10 rows
 | ID-987275 | Medium Facility| 2800                | 125            | 1003     | 18-04-2014    | 17047304         | 123        | 0.0               | 0.0              | 0.0              | 0.0             | 3547500.0       | 1290000.0       | 0.0             | 0.0             | Low                    |
 | ID-987275 | Medium Facility| 2800                | 125            | 1003     | 19-05-2014    | 23866224         | 171        | 0.0               | 0.0              | 0.0              | 0.0             | 0.0             | 0.0             | 0.0             | 0.0             | Low                    |
 
-</div>
-</div>
-
 </details>
 
 ---
@@ -99,7 +96,8 @@ data['Calendar_Year']=data['Calendardate'].dt.year
  ```python
 # Distribution of Customers by Type
 data['Client Type'].value_counts(normalize=True)
-```   
+```
+![Screenshot 2024-03-02 122029](https://github.com/quocquang/Marketing-Strategy-Analysis/assets/87820013/91273883-0bd6-4648-acc4-47c985a76fe3) 
 *  Tương quan giữa số lượng cạnh tranh và loại khách hàng:
    - Theo tỷ lệ:
    - High:
