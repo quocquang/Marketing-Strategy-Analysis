@@ -110,9 +110,10 @@ data['Client Type'].value_counts(normalize=True)
        - Medium Facility: 83.33%
        - Private Facility: 83.33%
        - Small Facility: 83.33%
+     
      ```python
       pd.crosstab(data['Number of Competition'],data['Client Type'],margins=True,normalize='columns')
-    ```
+     ```
   ![Screenshot 2024-03-02 122524](https://github.com/quocquang/Marketing-Strategy-Analysis/assets/87820013/b0bd27c3-2e38-45a2-b538-c715d36e5983)
   - Trung bình theo số lượng cạnh tranh:
     - Large Facility:
