@@ -110,9 +110,9 @@ data['Client Type'].value_counts(normalize=True)
        - Medium Facility: 83.33%
        - Private Facility: 83.33%
        - Small Facility: 83.33%
-   ```python
+ ```python
       pd.crosstab(data['Number of Competition'],data['Client Type'],margins=True,normalize='columns')
-   ```
+ ```
   ![Screenshot 2024-03-02 122524](https://github.com/quocquang/Marketing-Strategy-Analysis/assets/87820013/b0bd27c3-2e38-45a2-b538-c715d36e5983)
   - Average by the number of competitors:
     - Large Facility:
@@ -127,12 +127,23 @@ data['Client Type'].value_counts(normalize=True)
     - Small Facility:
        - Number of customers: 422.51
        - Average sales volume: 1,637,759
-    
-*  Tương quan giữa loại khách hàng và doanh số bán hàng:
-   - Large Facility: Doanh số bán hàng trung bình: 19,998,800
-   - Medium Facility: Doanh số bán hàng trung bình: 40,759,970
-   - Private Facility: Doanh số bán hàng trung bình: 5,030,246
-   - Small Facility: Doanh số bán hàng trung bình: 1,637,759
+ ```python
+      data.groupby('Client Type').mean()
+ ```
+
+| Client Type      | Number of Customers | Montly Target | Zip Code | Amount Collected | Unit Sold | Campaign (Email) | Campaign (Flyer) | Campaign (Phone) | Sales Contact 1 | Sales Contact 2 | Sales Contact 3 | Sales Contact 4 | Sales Contact 5 | Calendar Month | Calendar Year |
+|------------------|---------------------|---------------|----------|-------------------|-----------|-------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|----------------|---------------|
+| Large Facility  | 1380.842105         | 71.578947     | 1003.0   | 1.999880e+07      | 143.098684| 142273.609649     | 8.192056e+05     | 45595.436623     | 133667.763158   | 2.034013e+06    | 2.017039e+06    | 119287.280702   | 16266.447368    | 6.5            | 2014.5        |
+| Medium Facility | 3940.761905         | 202.857143    | 1003.0   | 4.075997e+07      | 290.583333| 437217.097817     | 1.552603e+06     | 49176.847619     | 398645.833333   | 4.822783e+06    | 4.698646e+06    | 85104.166667    | 33273.809524    | 6.5            | 2014.5        |
+| Private Facility| 400.727273          | 20.454545     | 1003.0   | 5.030246e+06      | 35.784091 | 5183.715152       | 2.272919e+05     | 5522.470455      | 1221.590909     | 6.376705e+05    | 4.434375e+05    | 3664.772727     | 12215.909091    | 6.5            | 2014.5        |
+| Small Facility  | 422.514286          | 21.285714     | 1003.0   | 1.637759e+06      | 11.689286 | 11975.986310      | 9.120875e+04     | 0.000000         | 8062.500000     | 7.617143e+05    | 3.727946e+05    | 4223.214286     | 1535.714286     | 6.5            | 2014.5        |
+
+
+*  The correlation between customer type and sales revenue:
+   - Large Facility: Average sales revenue: 19,998,800
+   - Medium Facility: Average sales revenue: 40,759,970
+   - Private Facility:Average sales revenue: 5,030,246
+   - Small Facility: Average sales revenue: 1,637,759
  
     ---
     
