@@ -77,20 +77,19 @@ import scipy.stats
 import os 
 os.chdir("C:/Users/phu/OneDrive/Pictures")
 ```
-```python
 
+```python
 #Upload dataset
 data = pd.read_csv('Campaign-Data.csv')
 data.columns
-
+```
 <details><summary> The  Overall Infomation </summary>
-  
+ 
 ```python
 data['Calendardate']=pd.to_datetime(data['Calendardate'])
 data['Calendar_Month']=data['Calendardate'].dt.month
 data['Calendar_Year']=data['Calendardate'].dt.year
 ```
-
 
 ---
 
