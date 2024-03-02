@@ -110,24 +110,24 @@ data['Client Type'].value_counts(normalize=True)
        - Medium Facility: 83.33%
        - Private Facility: 83.33%
        - Small Facility: 83.33%
-     
-     ```python
+   ```python
       pd.crosstab(data['Number of Competition'],data['Client Type'],margins=True,normalize='columns')
-     ```
+   ```
   ![Screenshot 2024-03-02 122524](https://github.com/quocquang/Marketing-Strategy-Analysis/assets/87820013/b0bd27c3-2e38-45a2-b538-c715d36e5983)
-  - Trung bình theo số lượng cạnh tranh:
+  - Average by the number of competitors:
     - Large Facility:
-       - Số lượng khách hàng: 1380.84
-       - Doanh số bán hàng trung bình: 19,998,800
+       - Number of customers: 1380.84
+       - Average sales volume: 19,998,800
     -  Medium Facility:
-       - Số lượng khách hàng: 3940.76
-       - Doanh số bán hàng trung bình: 40,759,970
+       - Number of customers: 3940.76
+       - Average sales volume: 40,759,970
     - Private Facility:
-       - Số lượng khách hàng: 400.73
-       - Doanh số bán hàng trung bình: 5,030,246
+       - Number of customers: 400.73
+       - Average sales volume: 5,030,246
     - Small Facility:
-       - Số lượng khách hàng: 422.51
-       - Doanh số bán hàng trung bình: 1,637,759
+       - Number of customers: 422.51
+       - Average sales volume: 1,637,759
+    
 *  Tương quan giữa loại khách hàng và doanh số bán hàng:
    - Large Facility: Doanh số bán hàng trung bình: 19,998,800
    - Medium Facility: Doanh số bán hàng trung bình: 40,759,970
