@@ -98,8 +98,8 @@ data['Calendar_Year']=data['Calendardate'].dt.year
 data['Client Type'].value_counts(normalize=True)
 ```
 ![Screenshot 2024-03-02 122029](https://github.com/quocquang/Marketing-Strategy-Analysis/assets/87820013/91273883-0bd6-4648-acc4-47c985a76fe3) 
-*  Tương quan giữa số lượng cạnh tranh và loại khách hàng:
-   - Theo tỷ lệ:
+*  The correlation between the number of competitors and the customer type:
+   - According to the ratio:
    - High:
        - Large Facility: 16.67%
        - Medium Facility: 16.67%
@@ -110,6 +110,10 @@ data['Client Type'].value_counts(normalize=True)
        - Medium Facility: 83.33%
        - Private Facility: 83.33%
        - Small Facility: 83.33%
+     ```python
+      pd.crosstab(data['Number of Competition'],data['Client Type'],margins=True,normalize='columns')
+    ```
+![Screenshot 2024-03-02 122524](https://github.com/quocquang/Marketing-Strategy-Analysis/assets/87820013/b0bd27c3-2e38-45a2-b538-c715d36e5983)
   - Trung bình theo số lượng cạnh tranh:
     - Large Facility:
        - Số lượng khách hàng: 1380.84
