@@ -39,7 +39,7 @@
  - Sales Contact 1, Sales Contact 2, Sales Contact 3, Sales Contact 4, Sales Contact 5: Details of sales contacts or representatives involved in the sales process.
  - Number of Competitors: The count of competitors or competing entities in the market.
 
-<details><summary> 👆🏼 Click to expand Campaign-Data Dataset </summary>
+<details><summary>  Click to expand Campaign-Data Dataset </summary>
 
 <div align="center">
 
@@ -59,6 +59,7 @@ First 10 rows
 </details>
 
 ---
+
 #  IMPORT LIBRARY & CLEAN & TRANSFORM DATA.
 
 <details><summary> Click to expand :arrow_down: </summary>
@@ -147,40 +148,73 @@ data['Client Type'].value_counts(normalize=True)
  
     ---
     
-* Phân tích hồi quy tuyến tính (OLS - Ordinary Least Squares) được thực hiện để đánh giá mức độ ảnh hưởng của các biến độc lập (Campaign_Email, Campaign_Flyer, Campaign_Phone, Sales_Contact_1, Sales_Contact_2, Sales_Contact_3, Sales_Contact_4, Sales_Contact_5) đối với biến phụ thuộc (Amount_Collected), tức là số tiền thu được.
-- Chiến dịch quảng cáo bằng Flyer có ảnh hưởng tích cực lớn nhất với hệ số là 4.1059.
-  - Sales Contact 2 có ảnh hưởng tích cực với hệ số là 3.5778.
-  - Sales Contact 1 có ảnh hưởng tích cực với hệ số là 3.1365.
-  - Sales Contact 3 có ảnh hưởng tích cực với hệ số là 2.1174.
+* Linear regression analysis (OLS - Ordinary Least Squares) was conducted to evaluate the influence of independent variables (Campaign_Email, Campaign_Flyer, Campaign_Phone, Sales_Contact_1, Sales_Contact_2, Sales_Contact_3, Sales_Contact_4, Sales_Contact_5) on the dependent variable (Amount_Collected), which represents the amount of money collected
+- The advertising campaign using Flyers has the most significant positive impact with a coefficient of 4.1059.
+  - Sales Contact 2 has a positive effect with a coefficient of 3.5778.
+  - Sales Contact 1 has a positive effect with a coefficient of 3.1365.
+  - Sales Contact 3 has a positive effect with a coefficient of 2.1174.
 - Large Facility:
-  - Sales Contact 1 có ảnh hưởng tích cực lớn nhất với hệ số là 11.6731.
-  - Sales Contact 4 có ảnh hưởng tích cực với hệ số là 10.6145.
-  - Sales Contact 2 có ảnh hưởng tích cực với hệ số là 4.0031.
-  - Chiến dịch quảng cáo bằng Flyer có ảnh hưởng tích cực với hệ số là 2.7204.
-  - Sales Contact 3 có ảnh hưởng tích cực với hệ số là 2.0316.
-  - Chiến dịch quảng cáo bằng Phone có ảnh hưởng tiêu cực với hệ số là -3.5361.
-- Small Facility:
-  - Sales Contact 2 có ảnh hưởng tích cực với hệ số là 0.810100.
-- Private Facility:
-  - Sales Contact 2 có ảnh hưởng tích cực lớn nhất với hệ số là 6.6223.
- * Trong tài khoản Medium Facility:
+  - Sales Contact 1 has a positive effect with a coefficient of 11.6731.
+  - Sales Contact 4 has a positive effect with a coefficient of 10.6145.
+  - Sales Contact 2 has a positive effect with a coefficient of 4.0031.
+- The advertising campaign using Flyers has a positive effect on the coefficient of 2.7204.
+  - Sales Contact 3 has a positive effect with a coefficient of 2.0316.
+- The advertising campaign using Phone has a negative effect on the coefficient of -3.5361.
+  - Small Facility:
+  - Sales Contact 2 has a positive effect with a coefficient of 0.810100.
+  - Private Facility:
+  - Sales Contact 2 has the largest positive effect with a coefficient of 6.6223.
 
-- Chiến dịch quảng cáo Flyer (Campaign_Flyer) có ROI là 4.1 đô la cho mỗi đô la chi tiêu.
-  - Sales Contact 2 có ROI là 3.6 đô la cho mỗi đô la chi tiêu.
-  - Sales Contact 1 có ROI là 3.1 đô la cho mỗi đô la chi tiêu.
-  - Sales Contact 3 có ROI là 2.1 đô la cho mỗi đô la chi tiêu.
- - Trong tài khoản Large Facility:
-   - Sales Contact 1 có ROI cao nhất, là 11.7 đô la cho mỗi đô la chi tiêu.
-   - Sales Contact 4 có ROI là 10.6 đô la cho mỗi đô la chi tiêu.
-   - Sales Contact 2 có ROI là 4 đô la cho mỗi đô la chi tiêu.
-- Chiến dịch quảng cáo Flyer (Campaign_Flyer) có ROI là 2.7 đô la cho mỗi đô la chi tiêu.
-  - Sales Contact 3 có ROI là 2 đô la cho mỗi đô la chi tiêu.
-- Chiến dịch quảng cáo qua điện thoại (Campaign_Phone) có ROI là -3.5 đô la cho mỗi đô la chi tiêu, có thể hiểu là chiến dịch này không hiệu quả và gây lỗ.
-  - Trong tài khoản Small Facility:
-  - Sales Contact 2 có ROI là 0.8 đô la cho mỗi đô la chi tiêu.
-- Chiến dịch quảng cáo qua điện thoại (Campaign_Phone) có ROI là 0 đô la cho mỗi đô la chi tiêu.
-  - Trong tài khoản Private Facility:
-  - Sales Contact 2 có ROI là 6.6 đô la cho mỗi đô la chi tiêu.
+ | Variable         | Coefficient (Impact) | Account Type      |
+|------------------|----------------------|-------------------|
+| Campaign_Flyer   | 4.105900             | Medium Facility   |
+| Sales_Contact_2  | 3.577800             | Medium Facility   |
+| Sales_Contact_1  | 3.136500             | Medium Facility   |
+| Sales_Contact_3  | 2.117400             | Medium Facility   |
+| Sales_Contact_1  | 11.673100            | Large Facility    |
+| Sales_Contact_4  | 10.614500            | Large Facility    |
+| Sales_Contact_2  | 4.003100             | Large Facility    |
+| Campaign_Flyer   | 2.720400             | Large Facility    |
+| Sales_Contact_3  | 2.031600             | Large Facility    |
+| Campaign_Phone   | -3.536100            | Large Facility    |
+| Sales_Contact_2  | 0.810100             | Small Facility    |
+| Campaign_Phone   | -0.000004            | Small Facility    |
+| Sales_Contact_2  | 6.622300             | Private Facility  |
+
+ * In accounts Medium Facility:
+- The Flyer advertising campaign (Campaign_Flyer) has an ROI of $4.1 for every dollar spent.
+  - Sales Contact 2 has an ROI of $3.6 for every dollar spent.
+  - Sales Contact 1 has an ROI of $3.1 for every dollar spent.
+  - Sales Contact 3 has an ROI of $2.1 for every dollar spent.
+- Within the Large Facility account:
+   - Sales Contact 1 has the highest ROI, at $11.7 for every dollar spent.
+   - Sales Contact 4 has an ROI of $10.6 for every dollar spent.
+   - Sales Contact 2 has an ROI of $4 for every dollar spent.
+- The Flyer advertising campaign (Campaign_Flyer) has an ROI of $2.7 for every dollar spent.
+  - Sales Contact 3 has an ROI of $2 for every dollar spent.
+- The Phone advertising campaign (Campaign_Phone) has an ROI of -$3.5 for every dollar spent, indicating that this campaign is not effective and leads to a loss.
+  - Within the Small Facility account:
+  - Sales Contact 2 has an ROI of $0.8 for every dollar spent.
+- The Phone advertising campaign (Campaign_Phone) has an ROI of $0 for every dollar spent.
+  - Within the Private Facility account:
+  - Sales Contact 2 has an ROI of $6.6 for every dollar spent.
+
+ Variable             | Return on Investment | Account Type
+---------------------|----------------------|-----------------
+Campaign_Flyer       | 4.1                  | Medium Facility
+Sales_Contact_2      | 3.6                  | Medium Facility
+Sales_Contact_1      | 3.1                  | Medium Facility
+Sales_Contact_3      | 2.1                  | Medium Facility
+Sales_Contact_1      | 11.7                 | Large Facility
+Sales_Contact_4      | 10.6                 | Large Facility
+Sales_Contact_2      | 4.0                  | Large Facility
+Campaign_Flyer       | 2.7                  | Large Facility
+Sales_Contact_3      | 2.0                  | Large Facility
+Campaign_Phone       | -3.5                 | Large Facility
+Sales_Contact_2      | 0.8                  | Small Facility
+Campaign_Phone       | 0.0                  | Small Facility
+Sales_Contact_2      | 6.6                  | Private Facility
+
   
 ---
 
