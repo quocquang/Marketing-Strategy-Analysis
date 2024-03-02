@@ -65,6 +65,18 @@ First 10 rows
 </details>
 
 ---
+# CLEAN & TRANSFORM DATA.
+<details><summary> The  Overall Infomation </summary>
+  
+```python
+data['Calendardate']=pd.to_datetime(data['Calendardate'])
+data['Calendar_Month']=data['Calendardate'].dt.month
+data['Calendar_Year']=data['Calendardate'].dt.year
+```
+
+
+---
+
 # Kết quả.
 * Tác động của Chiến lược Tiếp thị đối với Doanh số Bán hàng
 *  Phân phối khách hàng theo loại:
