@@ -65,7 +65,24 @@ First 10 rows
 </details>
 
 ---
-# CLEAN & TRANSFORM DATA.
+#  IMPORT LIBRARY & CLEAN & TRANSFORM DATA.
+
+<details><summary> Click to expand :arrow_down: </summary>
+  
+```python
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import scipy.stats
+import os 
+os.chdir("C:/Users/phu/OneDrive/Pictures")
+```
+```python
+
+#Upload dataset
+data = pd.read_csv('Campaign-Data.csv')
+data.columns
+
 <details><summary> The  Overall Infomation </summary>
   
 ```python
