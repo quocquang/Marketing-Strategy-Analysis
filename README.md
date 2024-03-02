@@ -76,7 +76,6 @@ os.chdir("C:/Users/phu/OneDrive/Pictures")
 #Upload dataset
 data = pd.read_csv('Campaign-Data.csv')
 ```
-<details><summary> The  Overall Infomation </summary>
  
 ```python
 data['Calendardate']=pd.to_datetime(data['Calendardate'])
