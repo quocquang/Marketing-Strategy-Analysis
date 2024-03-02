@@ -62,7 +62,6 @@ First 10 rows
 
 #  IMPORT LIBRARY & CLEAN & TRANSFORM DATA.
 
-<details><summary> Click to expand :arrow_down: </summary>
   
 ```python
 import pandas as pd
