@@ -81,7 +81,6 @@ os.chdir("C:/Users/phu/OneDrive/Pictures")
 ```python
 #Upload dataset
 data = pd.read_csv('Campaign-Data.csv')
-data.columns
 ```
 <details><summary> The  Overall Infomation </summary>
  
@@ -93,13 +92,17 @@ data['Calendar_Year']=data['Calendardate'].dt.year
 
 ---
 
-# Kết quả.
-* Tác động của Chiến lược Tiếp thị đối với Doanh số Bán hàng
-*  Phân phối khách hàng theo loại:
+## Result.
+* The Impact of Marketing Strategy on Sales Volume
+* Distribution of Customers by Type:
     - Large Facility: 45.97%
     - Small Facility: 28.23%
     - Medium Facility: 16.94%
     - Private Facility: 8.87%
+ ```python
+# Distribution of Customers by Type
+data['Client Type'].value_counts(normalize=True)
+```   
 *  Tương quan giữa số lượng cạnh tranh và loại khách hàng:
    - Theo tỷ lệ:
    - High:
