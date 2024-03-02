@@ -21,6 +21,47 @@
 
 
 ---
+
+# :bookmark_tabs: Campaign-Data Datasets
+
+###  Campaign-Data dataset
+Provide information about orders
+ - Client ID: Unique identifier for each client.
+ - Client Type: Type or category of the client.
+ - Number of Customers: The count of customers associated with each client.
+ - Monthly Target: The target set for each month, possibly representing sales or revenue goals.
+ - Zip Code: The postal code or zip code associated with the client's location.
+ - Calendar Date: Date information, likely indicating when the data was recorded.
+ - Amount Collected: The total amount collected, possibly representing revenue generated.
+ - Units Sold: The number of units or products sold.
+ - Campaign (Email): Information about marketing campaigns conducted via email.
+ - Campaign (Flyer): Information about marketing campaigns conducted via flyers.
+ - Campaign (Phone): Information about marketing campaigns conducted via phone calls.
+ - Sales Contact 1, Sales Contact 2, Sales Contact 3, Sales Contact 4, Sales Contact 5: Details of sales contacts or representatives involved in the sales process.
+ - Number of Competitors: The count of competitors or competing entities in the market.
+
+<details><summary> 👆🏼 Click to expand Campaign-Data Dataset </summary>
+
+<div align="center">
+
+**Table: Campaign-Data_dataset** 
+
+<div align="center">
+First 10 rows
+| Client ID | Client Type     | Number of Customers | Monthly Target | Zip Code | Calendardate | Amount Collected | Unit Sold | Campaign (Email) | Campaign (Flyer) | Campaign (Phone) | Sales Contact 1 | Sales Contact 2 | Sales Contact 3 | Sales Contact 4 | Sales Contact 5 | Number of Competition |
+|-----------|-----------------|---------------------|----------------|----------|--------------|------------------|------------|-------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------------|
+| ID-987275 | Medium Facility| 2800                | 125            | 1003     | 16-01-2014   | 0                | 0          | 0.0               | 0.0              | 0.0              | 0.0             | 0.0             | 0.0             | 0.0             | 0.0             | Low                    |
+| ID-987275 | Medium Facility| 2800                | 125            | 1003     | 16-02-2014   | 3409460          | 24         | 0.0               | 0.0              | 0.0              | 0.0             | 0.0             | 0.0             | 0.0             | 322500.0        | Low                    |
+| ID-987275 | Medium Facility| 2800                | 125            | 1003     | 18-03-2014   | 10228384         | 75         | 0.0               | 0.0              | 0.0              | 0.0             | 0.0             | 0.0             | 0.0             | 0.0             | Low                    |
+| ID-987275 | Medium Facility| 2800                | 125            | 1003     | 18-04-2014   | 17047304         | 123        | 0.0               | 0.0              | 0.0              | 0.0             | 3547500.0       | 1290000.0       | 0.0             | 0.0             | Low                    |
+| ID-987275 | Medium Facility| 2800                | 125            | 1003     | 19-05-2014   | 23866224         | 171        | 0.0               | 0.0              | 0.0              | 0.0             | 0.0             | 0.0             | 0.0             | 0.0             | Low                    |
+
+</div>
+</div>
+
+</details>
+
+---
 # Kết quả.
 * Tác động của Chiến lược Tiếp thị đối với Doanh số Bán hàng
 *  Phân phối khách hàng theo loại:
