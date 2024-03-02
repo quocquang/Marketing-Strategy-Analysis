@@ -49,7 +49,7 @@ Provide information about orders
 <div align="center">
 First 10 rows
 | Client ID | Client Type     | Number of Customers | Monthly Target | Zip Code | Calendardate | Amount Collected | Unit Sold | Campaign (Email) | Campaign (Flyer) | Campaign (Phone) | Sales Contact 1 | Sales Contact 2 | Sales Contact 3 | Sales Contact 4 | Sales Contact 5 | Number of Competition |
-|-----------|-----------------|---------------------|----------------|----------|--------------|------------------|------------|-------------------|------------------|------------------|-----------------|-----------------|-----------------|-----------------|-----------------|------------------------|
+|:----|:-----|:----|:----|:----|:----|:----|:----|
 | ID-987275 | Medium Facility| 2800                | 125            | 1003     | 16-01-2014   | 0                | 0          | 0.0               | 0.0              | 0.0              | 0.0             | 0.0             | 0.0             | 0.0             | 0.0             | Low                    |
 | ID-987275 | Medium Facility| 2800                | 125            | 1003     | 16-02-2014   | 3409460          | 24         | 0.0               | 0.0              | 0.0              | 0.0             | 0.0             | 0.0             | 0.0             | 322500.0        | Low                    |
 | ID-987275 | Medium Facility| 2800                | 125            | 1003     | 18-03-2014   | 10228384         | 75         | 0.0               | 0.0              | 0.0              | 0.0             | 0.0             | 0.0             | 0.0             | 0.0             | Low                    |
